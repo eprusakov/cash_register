@@ -3,6 +3,8 @@ class Product
   attr_reader :code, :name
   attr_accessor :price
 
+  PRODUCT_CODES_WITH_DISCOUNT = %w[GT1 SB1 CF1].freeze
+
   def initialize(code:, name:, price:)
     @code = code
     @name = name

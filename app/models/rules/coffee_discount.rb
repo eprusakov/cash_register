@@ -1,5 +1,5 @@
 module Rules
-  class CoffeeBulkDiscount
+  class CoffeeDiscount
     DISCOUNT_PERCENTAGE = 2.0 / 3.0
     MINIMUM_QUANTITY = 3
 

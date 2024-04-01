@@ -1,5 +1,7 @@
 # app/models/checkout.rb
 class Checkout
+  attr_reader :cart, :rules
+
   def initialize(rules)
     @rules = rules
     @cart = Hash.new(0)
