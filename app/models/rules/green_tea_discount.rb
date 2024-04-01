@@ -1,3 +1,4 @@
+# app/models/rules/green_tea_discount.rb
 module Rules
   class GreenTeaDiscount
     def apply(product, quantity)

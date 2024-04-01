@@ -1,4 +1,4 @@
-# app/models/rules/strawberry_bulk_discount.rb
+# app/models/rules/strawberry_discount.rb
 module Rules
   class StrawberryDiscount
     DISCOUNTED_PRICE = 4.50

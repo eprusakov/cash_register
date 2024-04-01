@@ -1,3 +1,4 @@
+# app/models/rules/coffee_discount.rb
 module Rules
   class CoffeeDiscount
     DISCOUNT_PERCENTAGE = 2.0 / 3.0
