@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### Prerequisites
 
-Things you may want to cover:
+The setup steps expect following tools installed on the system.
 
-* Ruby version
+- Github
+- Ruby "3.0.0"
+- Rails "7.0.8.1"
 
-* System dependencies
+##### 1. Check out the repository
 
-* Configuration
+```bash
+git clone git@github.com:eprusakov/cash_register.git
+```
 
-* Database creation
+##### 2. Install gems
 
-* Database initialization
+```bash
+bundle install
+```
 
-* How to run the test suite
+##### 3. Start the Rails console
 
-* Services (job queues, cache servers, search engines, etc.)
+You can start the rails console using the command given below.
 
-* Deployment instructions
+```ruby
+bundle exec rails c
+```
 
-* ...
+And now you can use application inside the rails console
